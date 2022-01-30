@@ -1,9 +1,9 @@
 import React from 'react'
 
-function primeiro(){
+export default () =>
+    <div>
+        <h1>Primeiro Componente Arrow </h1>)
+    </div>
 
-    return <h1>Primeiro Componente</h1>
 
-}
 
-export default primeiro
