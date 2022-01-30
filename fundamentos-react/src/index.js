@@ -8,26 +8,28 @@ import Familia from './components/Familia'
 import Member from './components/Member'
 import ComponentWithFunction from './components/componentWithFunction'
 import Pai from './components/Pai'
+import ComponenteClasse from './components/ClassComponent'
 
 
 //single page application | get div #root of index.html
 const element = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Pai/>
+        <ComponenteClasse value="I'm a class component" />
+        {/* <Pai/> */}
         {/* <ComponentWithFunction/> */}
         {/* <MultiElements/> */}
         {/* <PrimeiroComponente value={'Good Morning'}/> */}
         {/* <A value={'Olá, eu sou A'} />
         <B value={'Tudo bem, sou B?'} /> */}
-{/* <FamiliaSilva sobrenome=" Silva">
+        {/* <FamiliaSilva sobrenome=" Silva">
     <Member nome="Guilherme" />
     <Member nome="Luana" sobrenome="Galeno"/>
 </FamiliaSilva> */}
-{/* <Familia sobrenome=" Pereira ">
+        {/* <Familia sobrenome=" Pereira ">
     <Member nome="Ednaldo" />
     <Member nome="Apollo" />
 </Familia> */}
-        
+
     </div>
     , element)
