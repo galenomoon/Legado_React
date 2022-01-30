@@ -22,6 +22,7 @@ ReactDOM.render(
 </FamiliaSilva> */}
 <Familia sobrenome=" Pereira ">
     <Member nome="Ednaldo" />
+    <Member nome="Apollo" />
 </Familia>
         
     </div>
