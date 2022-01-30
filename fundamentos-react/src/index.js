@@ -16,10 +16,10 @@ ReactDOM.render(
         {/* <PrimeiroComponente value={'Good Morning'}/> */}
         {/* <A value={'Olá, eu sou A'} />
         <B value={'Tudo bem, sou B?'} /> */}
-<Familia>
-    <Member nome="Guilherme" sobrenome="Galeno"/>
+<FamiliaSilva sobrenome=" Silva">
+    <Member nome="Guilherme" />
     <Member nome="Luana" sobrenome="Galeno"/>
-</Familia>
+</FamiliaSilva>
         <FamiliaSilva/>
     </div>
     , element)
