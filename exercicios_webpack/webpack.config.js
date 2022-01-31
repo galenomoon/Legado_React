@@ -8,6 +8,6 @@ module.exports = {
     },
     devServer:{
         port:8080,
-        contentbase: './public'
+        contentBase: './public'
     }
 }
